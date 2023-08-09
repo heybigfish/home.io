@@ -24,7 +24,7 @@ export default defineConfig({
       less: {
         modifyVars: {
           hack: `true; @import (reference) "${resolve(
-            'src/assets/css/base.less'
+            'src/assets/css/root.less'
           )}";`
         },
         javascriptEnabled: true
