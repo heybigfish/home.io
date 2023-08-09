@@ -1,0 +1,1 @@
+import{_ as t,o,c as n,a as c,w as a,E as s,e as r}from"./index-f7753f5c.js";const _={};function l(u,d){const e=s;return o(),n("div",null,[c(e,null,{default:a(()=>[r("home")]),_:1})])}const m=t(_,[["render",l]]);export{m as default};
