@@ -2,7 +2,7 @@
   <div class="top-container">top</div>
 </template>
 
-<script setup>
+<script setup lang='ts'>
 
 </script>
 
