@@ -1,1 +1,0 @@
-import{_ as s,o,c as t,d as a,r,a as e,b as d}from"./index-f7753f5c.js";const i={},p={class:"top-container"};function l(_,n){return o(),t("div",p,"top")}const u=s(i,[["render",l],["__scopeId","data-v-cee87555"]]),m={class:"main"},x=a({__name:"Index",setup(_){return(n,v)=>{const c=r("router-view");return o(),t("div",null,[e(u),d("div",m,[e(c)])])}}});export{x as default};
