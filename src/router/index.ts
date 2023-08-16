@@ -10,7 +10,7 @@ const routes: Array<RouteRecordRaw> = [
     // alias: ['/home','/home2'],   // 别名，可以定义很多个
     // component: () => import('../views/home.vue'),
     // 重定向
-    redirect: '/home'
+    redirect: '/index'
   },
   {
     path: '/',
@@ -19,8 +19,8 @@ const routes: Array<RouteRecordRaw> = [
     // 重定向
     children: [
       {
-        path: '/home',
-        name: 'home',
+        path: '/index',
+        name: 'index',
         component: () =>
           import('@/views/home.vue') // component: import('../views/reg.vue')
       }
