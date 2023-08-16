@@ -1,1 +1,0 @@
-import{_ as t,o,c as n,b as c,w as s,E as a,f as r}from"./index-b5066dee.js";const _={};function l(u,f){const e=a;return o(),n("div",null,[c(e,null,{default:s(()=>[r("home")]),_:1})])}const m=t(_,[["render",l]]);export{m as default};
