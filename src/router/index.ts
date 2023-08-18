@@ -1,6 +1,6 @@
 import {
   createRouter,
-  createWebHistory,
+  createWebHashHistory,
   RouteRecordRaw
 } from 'vue-router'
 // import Layout from '@/layout/Index.vue'
@@ -31,7 +31,7 @@ const routes: Array<RouteRecordRaw> = [
 ]
 
 const router = createRouter({
-  history: createWebHistory('/home/'),
+  history: createWebHashHistory('/home/'),
   routes
 })
 
