@@ -23,6 +23,10 @@
         </span>
       </h3>
     </div>
+    <!-- 图标 -->
+    <div class="point-icon animate__animated animate__infinite animate__bounce">
+      <IconSvg name="iconset0435" size="60px" />
+    </div>
   </div>
 </template>
 
@@ -137,19 +141,18 @@ export default {
     }
   }
 
-  .scroll-next {
+  .point-icon {
     position: absolute;
-    display: inline-block;
-    width: 100%;
-    padding: 2rem 0;
-    bottom: 1vh;
-    font-size: 1.5rem;
+    bottom: 25px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    cursor: pointer;
     color: @--font-color;
     animation-duration: 2s;
     animation-delay: 1s;
 
     * {
-      transform: rotate(45deg);
+      transform: rotate(-45deg);
     }
   }
 }

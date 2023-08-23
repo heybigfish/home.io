@@ -6,8 +6,15 @@ import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
 import VueSmoothScroll from 'vue3-smooth-scroll'
 
-import * as ElementPlusIconsVue from '@element-plus/icons-vue'
+// ali iconfont
+import '@/assets/icon/iconfont.css'
+import '@/assets/icon/iconfont.js'
 
+import IconSvg from '@/components/IconSvg.vue'
+
+// element-plus 图标库
+import * as ElementPlusIconsVue from '@element-plus/icons-vue'
+// animate动画库
 import 'animate.css'
 
 // 打印字体效果
@@ -22,6 +29,7 @@ for (const [
   app.component(key, component)
 }
 app.component('AutoTyperVue', AutoTyperVue)
+app.component('IconSvg', IconSvg)
 app.use(router)
 app.use(VueSmoothScroll)
 app.use(ElementPlus)
