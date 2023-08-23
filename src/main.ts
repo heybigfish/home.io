@@ -4,7 +4,6 @@ import router from './router/index.ts'
 import App from './App.vue'
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
-import VueSmoothScroll from 'vue3-smooth-scroll'
 
 // ali iconfont
 import '@/assets/icon/iconfont.css'
@@ -31,6 +30,5 @@ for (const [
 app.component('AutoTyperVue', AutoTyperVue)
 app.component('IconSvg', IconSvg)
 app.use(router)
-app.use(VueSmoothScroll)
 app.use(ElementPlus)
 app.mount('#app')

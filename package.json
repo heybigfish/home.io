@@ -14,8 +14,7 @@
     "auto-typer-vue3": "^1.2.2",
     "element-plus": "^2.3.9",
     "vue": "^3.3.4",
-    "vue-router": "4",
-    "vue3-smooth-scroll": "^0.8.1"
+    "vue-router": "4"
   },
   "devDependencies": {
     "@types/node": "^20.4.8",
