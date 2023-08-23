@@ -36,4 +36,14 @@ export default {
   overflow: auto;
   padding: 0;
 }
+.el-container {
+  min-height: 100vh;
+  .el-aside {
+    height: 100vh;
+  }
+  .el-main {
+    height: 100vh;
+    overflow: auto;
+  }
+}
 </style>

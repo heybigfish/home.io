@@ -24,23 +24,36 @@
       </h3>
     </div>
     <!-- 图标 -->
-    <div class="point-icon animate__animated animate__infinite animate__bounce">
+    <div
+      class="point-icon animate__animated animate__infinite animate__bounce"
+      @click="scrollNext"
+    >
       <IconSvg name="iconset0435" size="60px" />
     </div>
   </div>
 </template>
 
 <script  lang='ts'>
-import { reactive, toRefs } from 'vue'
+import { computed, reactive, toRefs } from 'vue'
 
 export default {
   setup() {
     const state = reactive({
       count: 0
     })
-
+    const rootHeight = computed(() => {
+      return window.innerHeight || 0
+    })
+    const scrollNext = () => {
+      window.scrollTo({
+        top: rootHeight.value,
+        left: 0,
+        behavior: 'smooth'
+      })
+    }
     return {
-      ...toRefs(state)
+      ...toRefs(state),
+      scrollNext
     }
   }
 }
