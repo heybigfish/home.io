@@ -1,0 +1,1 @@
+import{_ as s,c,o as t,p as a,e as d,b as o}from"./index-FmoBUTxa.js";const _={},p=e=>(a("data-v-6a94d86d"),e=e(),d(),e),n={class:"home-container"},r=p(()=>o("div",{class:"top"},[o("div")],-1)),i=[r];function h(e,f){return t(),c("div",n,i)}const m=s(_,[["render",h],["__scopeId","data-v-6a94d86d"]]);export{m as default};

@@ -1,1 +1,0 @@
-import{_ as c,c as s,o as t,p as _,f as a,e as o}from"./index-42ad4504.js";const d={},n=e=>(_("data-v-fda80dc2"),e=e(),a(),e),p={class:"home-container"},r=n(()=>o("div",{class:"top"},[o("div")],-1)),i=[r];function f(e,h){return t(),s("div",p,i)}const m=c(d,[["render",f],["__scopeId","data-v-fda80dc2"]]);export{m as default};

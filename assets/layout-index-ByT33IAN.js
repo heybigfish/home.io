@@ -1,0 +1,1 @@
+import{d as t,r as a,c as n,a as e,b as s,o as r}from"./index-FmoBUTxa.js";const c={class:"main"},_=t({__name:"layout-index",setup(i){return(d,l)=>{const o=a("router-view");return r(),n("div",null,[e(_),s("div",c,[e(o)])])}}});export{_ as default};
