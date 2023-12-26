@@ -16,7 +16,7 @@
 
 <script lang="ts">
 import { reactive, toRefs } from 'vue'
-import Banner from './banner.vue'
+import Banner from './start-banner.vue'
 export default {
   components: { Banner },
 

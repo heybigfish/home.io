@@ -1,3 +1,4 @@
+<!-- eslint-disable-next-line vue/multi-word-component-names -->
 <template>
   <div class="top-container">
     <div class="left">logo</div>
@@ -24,9 +25,11 @@
   justify-content: space-between;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
   border: 1px solid #aaa;
+
   .right {
     display: flex;
-    .item + .item {
+
+    .item+.item {
       margin-left: 15px;
     }
   }

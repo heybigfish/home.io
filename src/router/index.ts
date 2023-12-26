@@ -1,8 +1,4 @@
-import {
-  createRouter,
-  createWebHashHistory,
-  type RouteRecordRaw
-} from 'vue-router'
+import { createRouter, createWebHashHistory, type RouteRecordRaw } from 'vue-router'
 // import Layout from '@/layout/Index.vue'
 const routes: Array<RouteRecordRaw> = [
   {
@@ -11,22 +7,19 @@ const routes: Array<RouteRecordRaw> = [
   },
   {
     path: '/',
-    component: () =>
-      import('@/layout/Index.vue'),
+    component: () => import('@/layout/layout-index.vue'),
     // 重定向
     children: [
       {
         path: '/index',
         name: 'index',
-        component: () =>
-          import('@/views/home.vue') // component: import('../views/reg.vue')
+        component: () => import('@/views/app-home.vue') // component: import('../views/reg.vue')
       }
     ]
   },
   {
     path: '/start',
-    component: () =>
-      import('@/views/start/index.vue')
+    component: () => import('@/views/start/start-index.vue')
   }
 ]
 

@@ -11,7 +11,9 @@ import Components from 'unplugin-vue-components/vite'
 import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 
 export default defineConfig(({ mode }) => {
+  console.log('🚀~ mode:', mode)
   const env = loadEnv(mode, __dirname)
+  console.log('🚀 ~ env:', env)
 
   return {
     plugins: [
